@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory Page 💖</title>
+   
+    <style>
+        body {
+         
+            text-align: center;
+            background: url("pink1.jpeg");   /* your image */
+            background-size: cover;       /* full screen */
+            background-position: center;  /* center image */
+            background-repeat: no-repeat; /* no repeat */
+            height: 100vh;
+            font-family: Arial;
+            color: black;
+        } 
+
+        h1 {
+            font-family: 'poor richard', cursive;
+            font-size: 45px;
+            color: black;
+        }
+        /* SMALL IMAGE */
+        img {
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+            object-position: center 30%;  /* ✅ adjust face properly */
+            border-radius: 15px;
+       }
+        /* CAPTION */
+        .caption {
+            font-size: 14px;
+            margin-top: 12px;
+            font-family: 'poor richard', cursive;
+            font-size: 25px;
+            color: black;
+        }
+
+        /* BUTTON */
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ffe3ec;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Kaifff's Yes😁</h1>
+
+    <!-- IMAGE -->
+    <img src="image1.jpeg" alt="Memory Image">
+
+    <!-- CAPTION -->
+    <p class="caption">TOM's jerry🐭</p> 
+
+    <audio autoplay loop muted id="bgMusic">
+    <source src="audio1.mpeg" type="audio/mp3">
+    </audio>
+
+    <script>
+         let music = document.getElementById("bgMusic");
+         music.muted = false;
+         music.play();
+    </script>
+
+    <!-- BACK BUTTON -->
+    <br>
+    <a href="birthday.html">
+        <button>Back 🔙</button>
+    </a>
+
+</body>
+</html>
